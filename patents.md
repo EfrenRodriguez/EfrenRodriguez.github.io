@@ -25,7 +25,7 @@ Most of these inventions relate to:
 ## Granted Patents
 
 <details>
-<summary>View granted patents</summary>
+<summary>Granted patents (11)</summary>
 
 ### Laundry treatment appliance and method of identifying a laundry treatment operation
 US12258696B2 — Granted 2025
@@ -61,7 +61,7 @@ US12286741B2 — Granted 2025
 ## Published Patent Applications
 
 <details>
-<summary>View published applications</summary>
+<summary>Published applications (6)</summary>
 
 ### Sharing cycle settings between connected appliances
 US20230392316A1
