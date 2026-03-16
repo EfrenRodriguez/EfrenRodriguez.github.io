@@ -22,60 +22,34 @@ Most of these inventions relate to:
 
 ---
 
-## Granted Patents
+## Granted Patents (11)
 
-<details>
-<summary>Granted patents (11)</summary>
-
-### Laundry treatment appliance and method of identifying a laundry treatment operation
-US12258696B2 — Granted 2025
-
-### Dryer appliance and methods for additive dispensing
-US11891750B2 — Granted 2024
-
-### Dryer appliance and methods for improved operation
-US11692299B2 — Granted 2023
-
-### Methods for implementing cleaning cycles in commercial washing machine appliances
-US11851798B1 — Granted 2023
-
-### Multiple load laundry appliance communication
-US11608579B2 — Granted 2023
-
-### Laundry treatment appliance and method of determining laundry load weight
-US12442120B2 — Granted 2025
-
-### Laundry assembly and method for controlling a connected laundry appliance
-US12467184B2 — Granted 2025
-
-### Commercial laundry appliance system and method of tracking additive usage
-US12421640B2 — Granted 2025
-
-### Methods and systems for laundry assembly control
-US12286741B2 — Granted 2025
+| Patent       | Title                                                                               | Year |
+|--------------|-------------------------------------------------------------------------------------|------|
+| US12258696B2 | Laundry treatment appliance and method of identifying a laundry treatment operation | 2025 |
+| US12442120B2 | Laundry treatment appliance and method of determining laundry load weight           | 2025 |
+| US12467184B2 | Laundry assembly and method for controlling a connected laundry appliance           | 2025 |
+| US12421640B2 | Commercial laundry appliance system and method of tracking additive usage           | 2025 |
+| US12286741B2 | Methods and systems for laundry assembly control                                    | 2025 |
+| US11891750B2 | Dryer appliance and methods for additive dispensing                                 | 2024 |
+| US11692299B2 | Dryer appliance and methods for improved operation                                  | 2023 |
+| US11851798B1 | Methods for implementing cleaning cycles in commercial washing machine appliances   | 2023 |
+| US11608579B2 | Multiple load laundry appliance communication                                       | 2023 |
 
 </details>
 
 ---
 
-## Published Patent Applications
+## Published Patent Applications (6)
 
-<details>
-<summary>Published applications (6)</summary>
+| Application     | Title                                                                   | Year |
+|-----------------|-------------------------------------------------------------------------|------|
+| US20230392316A1 | Sharing cycle settings between connected appliances                     | 2023 |
+| US20240125040A1 | Method for scheduling and executing a warmup cycle in a dryer appliance | 2024 |
+| US20240309573A1 | Household appliances proximity detection                                | 2024 |
+| US20240247421A1 | Domestic appliances and methods of automatic calibration                | 2024 |
+| US20250369170A1 | Method of operating a laundry treatment appliance to diagnose faults    | 2025 |
 
-### Sharing cycle settings between connected appliances
-US20230392316A1
+---
 
-### Method for scheduling and executing a warmup cycle in a dryer appliance
-US20240125040A1
-
-### Household appliances proximity detection
-US20240309573A1
-
-### Domestic appliances and methods of automatic calibration
-US20240247421A1
-
-### Method of operating a laundry treatment appliance to diagnose faults
-US20250369170A1
-
-</details>
+For a full list of public filings, see [here](https://patents.google.com/?q=(Haier)&inventor=Efren+Rodriguez)
