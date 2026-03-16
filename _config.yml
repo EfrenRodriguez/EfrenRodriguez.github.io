@@ -1,3 +1,7 @@
 title: Efren Rodriguez
 description: Embedded Systems & Connected Product Platforms
 theme: minima
+
+minima:
+  custom_css:
+    - assets/css/custom.css
