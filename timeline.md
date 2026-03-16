@@ -1,3 +1,6 @@
+[Home](index.md) | [About](about.md) | [Career Timeline](timeline.md) | [Patents](patents.md) | [Contact](contact.md)
+
+---
 # Career Timeline
 
 My career has been focused on embedded systems and connected consumer products, evolving from hands-on firmware development to leading global engineering teams responsible for complex product platforms.

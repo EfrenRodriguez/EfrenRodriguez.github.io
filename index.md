@@ -1,3 +1,6 @@
+[Home](index.md) | [About](about.md) | [Career Timeline](timeline.md) | [Patents](patents.md) | [Contact](contact.md)
+
+---
 # Efren Rodriguez
 
 Director, Software Engineering

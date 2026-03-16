@@ -1,3 +1,6 @@
+[Home](index.md) | [About](about.md) | [Career Timeline](timeline.md) | [Patents](patents.md) | [Contact](contact.md)
+
+---
 # Patents & Innovation
 
 Innovation has been an important part of my work throughout my career in embedded systems and connected consumer appliances. Many of the engineering problems involved in modern appliance platforms require new approaches to sensing, control algorithms, system coordination, and connected product behavior.

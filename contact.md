@@ -1,3 +1,6 @@
+[Home](index.md) | [About](about.md) | [Career Timeline](timeline.md) | [Patents](patents.md) | [Contact](contact.md)
+
+---
 # Contact
 
 If you would like to connect regarding technology leadership, embedded systems, or connected product development, I welcome the conversation.
