@@ -115,7 +115,7 @@ This experience provided the foundation for my later work in large-scale embedde
 ## Education
 
 **Master’s Degree – Innovation Management**
-Tecnológico de Monterrey
+Tecnologico de Monterrey
 
 **Electronics Engineering (Graduated with Honors)**
-Tecnológico de Monterrey
+Tecnologico de Monterrey
