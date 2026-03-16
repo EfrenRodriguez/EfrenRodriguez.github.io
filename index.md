@@ -1,6 +1,7 @@
 [Home](index.md) | [About](about.md) | [Career Timeline](timeline.md) | [Patents](patents.md) | [Contact](contact.md)
 
 ---
+<img src="assets/images/profilePicture.png" width="180" style="border-radius:50%;" />
 
 # Efren Rodriguez
 
