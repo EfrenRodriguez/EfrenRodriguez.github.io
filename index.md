@@ -1,6 +1,7 @@
 [Home](index.md) | [About](about.md) | [Career Timeline](timeline.md) | [Patents](patents.md) | [Contact](contact.md)
 
 ---
+
 # Efren Rodriguez
 
 Director, Software Engineering
@@ -10,43 +11,24 @@ Builder of high-performing engineering organizations.
 
 ---
 
-## Overview
+I lead engineering teams developing embedded software platforms and connected consumer products. My work focuses on transforming complex business and user needs into scalable technical systems that deliver reliable products.
 
-I lead engineering teams developing embedded software platforms and connected consumer products. My work focuses on building scalable technology foundations, delivering complex programs, and developing strong engineering organizations.
-
-Currently serving as Director of Software Engineering at GE Appliances, I oversee software development across multiple appliance platforms and connected product capabilities.
-
-My experience spans embedded systems, connected devices, and global engineering collaboration.
+Currently serving as Director of Software Engineering at GE Appliances, I guide technical strategy, coordinate global engineering teams, and deliver connected product platforms across consumer appliance systems.
 
 ---
 
-## Leadership Focus
+## Areas of Focus
 
-My work centers around three areas:
-
-**Technology Platforms**
-Building scalable embedded software platforms for consumer products.
-
-**Connected Experiences**
-Delivering connected features that enhance product value and user experience.
-
-**Engineering Organizations**
-Developing strong teams and engineering processes that deliver complex programs reliably.
-
----
-
-## Highlights
-
-- Director of Software Engineering – GE Appliances
-- Leadership of global embedded software teams
-- Development of connected appliance platforms
-- Multiple patents in consumer appliance innovation
+- Embedded systems architecture
+- Connected product platforms
+- Engineering leadership and team development
+- Safety-critical firmware and product reliability
 
 ---
 
 ## Explore
 
-- [Career Timeline](timeline.md)
-- [Patents & Innovation](patents.md)
-- [About](about.md)
-- [Contact](contact.md)
+- [About](about.md) – Professional background and leadership philosophy
+- [Career Timeline](timeline.md) – Roles, platforms, and major programs
+- [Patents & Innovation](patents.md) – Intellectual property and innovation work
+- [Contact](contact.md) – Professional contact information
