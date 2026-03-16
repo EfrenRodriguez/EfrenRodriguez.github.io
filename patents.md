@@ -36,8 +36,6 @@ Most of these inventions relate to:
 | US11851798B1 | Methods for implementing cleaning cycles in commercial washing machine appliances   | 2023 |
 | US11608579B2 | Multiple load laundry appliance communication                                       | 2023 |
 
-</details>
-
 ---
 
 ## Published Patent Applications (6)
