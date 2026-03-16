@@ -2,16 +2,17 @@
 
 ---
 
-<div style="text-align:center">
+<div class="hero">
 
 <img src="assets/images/profilePicture.png" width="180" style="border-radius:50%;" />
 
-# Efren Rodriguez
+<h1>Efren Rodriguez</h1>
 
-Director, Software Engineering
-Embedded Systems & Connected Product Platforms
+<p><strong>Director, Software Engineering</strong><br>
+Embedded Systems & Connected Product Platforms</p>
 
-Builder of high-performing engineering organizations.
+<p>Builder of high-performing engineering organizations.</p>
+
 </div>
 
 ---
