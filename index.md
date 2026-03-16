@@ -1,14 +1,20 @@
 [Home](index.md) | [About](about.md) | [Career Timeline](timeline.md) | [Patents](patents.md) | [Contact](contact.md)
 
 ---
-<img src="assets/images/profilePicture.png" width="180" style="border-radius:50%;" />
+
+<div style="text-align:center">
+
+<img src="assets/images/profilePicture.jpg" class="profile-photo"/>
 
 # Efren Rodriguez
+<div class="hero-divider"></div>
 
-Director, Software Engineering
+**Director, Software Engineering**
 Embedded Systems & Connected Product Platforms
 
 Builder of high-performing engineering organizations.
+
+</div>
 
 ---
 
