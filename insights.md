@@ -12,7 +12,7 @@ These notes are not academic articles. They reflect practical approaches develop
 
 ## Leadership and Team Building
 
-- [What I Look for When Hiring a Software Program Manager](insights/hiring-digital-program-manager.md)
+- [I Don’t Hire “Complete” DPMs—I Hire for Execution and Time to Independence](insights/hiring-digital-program-manager.md)
 
 ---
 
