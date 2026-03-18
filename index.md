@@ -4,8 +4,6 @@ title: Home
 permalink: /
 ---
 
----
-
 <div class="hero">
 
 <img src="assets/images/profilePicture.png" width="180" style="border-radius:50%;" />
