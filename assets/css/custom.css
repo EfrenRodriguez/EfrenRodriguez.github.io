@@ -1,87 +1,83 @@
-/* Improve typography */
+:root {
+  --brand-ink: #1a2b49;
+  --brand-accent: #0e8c6f;
+  --surface: #ffffff;
+  --text-main: #1f2430;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--text-main);
   line-height: 1.7;
-  color: #2c2c2c;
+  background:
+    radial-gradient(circle at 15% -10%, rgba(14, 140, 111, 0.15), rgba(14, 140, 111, 0) 35%),
+    radial-gradient(circle at 85% 0%, rgba(26, 43, 73, 0.14), rgba(26, 43, 73, 0) 35%),
+    linear-gradient(180deg, #f9fbfc 0%, #ffffff 50%, #f7faf9 100%);
 }
 
-/* Base heading styling */
+.masthead {
+  border-bottom: 1px solid #d9e5e2;
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(7px);
+}
 
-h1, h2, h3 {
+.masthead__menu-item a {
   font-weight: 600;
-  margin-top: 2rem;
 }
 
-/* Main page titles */
-
-h1 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
+.page {
+  background: var(--surface);
+  border: 1px solid #e8eff0;
+  border-radius: 14px;
+  box-shadow: 0 12px 35px rgba(16, 45, 40, 0.06);
+  padding: 1rem;
 }
 
-/* Section headers */
-
-h2 {
-  font-size: 1.6rem;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid #e5e5e5;
+.page__title {
+  color: var(--brand-ink);
+  letter-spacing: 0.01em;
 }
 
-/* Subheaders */
-
-h3 {
-  font-size: 1.2rem;
-  margin-top: 30px;
-  margin-bottom: 10px;
+.page__content {
+  font-size: 1.03rem;
+  line-height: 1.78;
 }
 
-/* Navigation bar styling */
-nav {
-  font-size: 0.95rem;
-  margin-bottom: 2rem;
+.page__content h2 {
+  margin-top: 2.2rem;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid #dde6ef;
 }
 
-/* Better section spacing */
+.page__content h3 {
+  margin-top: 1.7rem;
+}
+
 hr {
-  margin: 2.5rem 0;
-}
-
-.profile-photo {
-  width: 180px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 20px auto;
-}
-
-/* Make content slightly wider */
-.wrapper {
-  max-width: 960px;
+  margin: 2.2rem 0;
 }
 
 .hero {
   text-align: center;
 }
 
-.hero-title {
-  font-size: 2.4rem;
-  font-weight: 600;
+.hero h1 {
+  margin-bottom: 0.3rem;
 }
 
-.hero-subtitle {
-  font-size: 1.2rem;
-  color: #555;
+.hero p {
+  margin-bottom: 0.5rem;
 }
 
-.hero-divider {
-  width: 80px;
-  height: 3px;
-  background: #3a7bd5;
-  margin: 25px auto;
+a {
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
 }
 
-.timeline-divider {
-  border-top: 1px solid #e5e5e5;
-  margin: 40px 0;
+@media (max-width: 900px) {
+  .page {
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
 }
