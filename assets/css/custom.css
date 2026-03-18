@@ -90,6 +90,74 @@ a {
   text-underline-offset: 0.18em;
 }
 
+.contact-form {
+  margin-top: 0.9rem;
+  max-width: 760px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--brand-ink);
+  font-weight: 600;
+}
+
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  margin-top: 0.35rem;
+  margin-bottom: 0.9rem;
+  padding: 0.68rem 0.78rem;
+  border: 1px solid #cfdce2;
+  border-radius: 10px;
+  background: #fbfcfd;
+  color: var(--text-main);
+  font: inherit;
+  line-height: 1.45;
+  transition: border-color 0.16s ease, box-shadow 0.16s ease, background-color 0.16s ease;
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--brand-accent);
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(14, 140, 111, 0.14);
+}
+
+.contact-form button[type="submit"] {
+  border: 0;
+  border-radius: 10px;
+  padding: 0.6rem 1.05rem;
+  background: var(--brand-accent);
+  color: #ffffff;
+  font: inherit;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.16s ease, background-color 0.16s ease;
+  box-shadow: 0 8px 20px rgba(14, 140, 111, 0.2);
+}
+
+.contact-form button[type="submit"]:hover {
+  background: #0b7a62;
+  transform: translateY(-1px);
+}
+
+.contact-form button[type="submit"]:active {
+  transform: translateY(0);
+}
+
+.contact-form button[type="submit"]:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 140, 111, 0.2), 0 8px 20px rgba(14, 140, 111, 0.2);
+}
+
 @media (max-width: 900px) {
   .page {
     border-radius: 10px;

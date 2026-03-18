@@ -33,6 +33,27 @@ I am particularly interested in conversations related to:
 
 ---
 
-## Note
+## Send a Message
 
-Email is the most reliable way to reach me for professional inquiries or collaboration opportunities.
+<form
+	class="contact-form"
+	action="https://formspree.io/f/xqeywwvq"
+	method="POST"
+>
+	<label>
+		Your name:
+		<input type="text" name="name">
+	</label>
+	<label>
+		Your email:
+		<input type="email" name="email">
+	</label>
+	<label>
+		Your message:
+		<textarea name="message"></textarea>
+	</label>
+	<!-- Anti-spam honeypot -->
+	<input type="text" name="_gotcha" style="display:none">
+	<!-- your other form fields go here -->
+	<button type="submit">Send</button>
+</form>
