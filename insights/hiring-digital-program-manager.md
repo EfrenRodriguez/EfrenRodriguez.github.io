@@ -1,4 +1,8 @@
-[Home](../index.md) | [About](../about.md) | [Career Timeline](../timeline.md) | [Patents](../patents.md) | [Insights](../insights.md) | [Contact](../contact.md)
+---
+layout: single
+title: I Don't Hire "Complete" DPMs - I Hire for Execution and Time to Independence
+permalink: /insights/hiring-digital-program-manager/
+---
 
 # I Don’t Hire “Complete” DPMs—I Hire for Execution and Time to Independence
 

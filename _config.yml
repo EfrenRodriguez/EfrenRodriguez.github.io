@@ -1,7 +1,22 @@
 title: Efren Rodriguez
 description: Embedded Systems & Connected Product Platforms
-theme: minima
+url: "https://efrenrodriguez.me"
+baseurl: ""
 
-minima:
-  custom_css:
-    - assets/css/custom.css
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
+
+plugins:
+  - jekyll-include-cache
+
+markdown: kramdown
+
+masthead_title: "Efren Rodriguez"
+search: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single

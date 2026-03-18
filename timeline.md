@@ -1,4 +1,8 @@
-[Home](index.md) | [About](about.md) | [Career Timeline](timeline.md) | [Patents](patents.md) | [Insights](insights.md) | [Contact](contact.md)
+---
+layout: single
+title: Career Timeline
+permalink: /timeline/
+---
 
 ---
 
@@ -6,7 +10,7 @@
 
 My career has focused on building embedded systems and connected consumer products, evolving from firmware development to leading global engineering teams responsible for complex product platforms.
 
-<div class="timeline-divider"></div>
+---
 
 ## 2023 — Present
 ### Director, Software Engineering
@@ -22,7 +26,7 @@ Lead the software organization responsible for embedded platforms and connected 
 - Introduced a **centralized requirements management library** enabling collaborative engineering ownership
 - Guide multi-release software roadmaps for connected appliance platforms
 
-<div class="timeline-divider"></div>
+---
 
 ## 2022 — 2023
 ### Principal Software Engineer
@@ -37,7 +41,7 @@ Led software development and program coordination for residential washer platfor
 - Managed effort estimation, scheduling, and risk mitigation for full software delivery
 - Led root cause investigations for system-level failures
 
-<div class="timeline-divider"></div>
+---
 
 ## 2020 — 2022
 ### Senior Software Engineer
@@ -52,7 +56,7 @@ Focused on platform development and integration of embedded firmware across appl
 - Delivered software supporting safety, performance, serviceability, and manufacturing
 - Supported launch of **multiple washer platforms**
 
-<div class="timeline-divider"></div>
+---
 
 ## 2018 — 2020
 ### Embedded Software Engineer
@@ -66,7 +70,7 @@ Developed embedded firmware and algorithms for washer systems.
 - Led multi-board embedded system integration
 - Developed firmware compliant with **UL Class B safety requirements**
 
-<div class="timeline-divider"></div>
+---
 
 ## 2017 — 2018
 ### Software Engineer
@@ -80,7 +84,7 @@ Developed embedded software for automotive amplifier systems.
 - Developed communication interfaces with vehicle head units
 - Contributed to automotive embedded audio system architecture
 
-<div class="timeline-divider"></div>
+---
 
 ## 2011 — 2017
 ### Software Engineer
@@ -95,7 +99,7 @@ Early career focused on embedded software development for consumer appliances.
 - Participated in field diagnostics and manufacturing ramp-up
 - Built the technical foundation that led to later leadership roles
 
-<div class="timeline-divider"></div>
+---
 
 ## Education
 
