@@ -4,8 +4,6 @@ title: Insights
 permalink: /insights/
 ---
 
----
-
 # Insights
 
 From time to time I document lessons and frameworks I use when leading engineering teams, delivering complex programs, or developing connected products.

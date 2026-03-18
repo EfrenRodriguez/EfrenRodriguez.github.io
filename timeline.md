@@ -4,8 +4,6 @@ title: Career Timeline
 permalink: /timeline/
 ---
 
----
-
 # Career Timeline
 
 My career has focused on building embedded systems and connected consumer products, evolving from firmware development to leading global engineering teams responsible for complex product platforms.
