@@ -4,8 +4,6 @@ title: I Don't Hire "Complete" DPMs - I Hire for Execution and Time to Independe
 permalink: /insights/hiring-digital-program-manager/
 ---
 
-# I Don’t Hire “Complete” DPMs—I Hire for Execution and Time to Independence
-
 *Published: March 17, 2026*
 
 ## Executive Summary

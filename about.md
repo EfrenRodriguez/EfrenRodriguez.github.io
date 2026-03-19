@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About
-
 **Director, Software Engineering**
 Embedded Systems & Connected Product Platforms
 
