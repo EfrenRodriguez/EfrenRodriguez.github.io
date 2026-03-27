@@ -8,9 +8,9 @@ Innovation has been an important part of my work throughout my career in embedde
 
 Over the course of my career I have contributed to **multiple patent applications**, including:
 
-- **11 granted patents**
-- **6 applications currently under evaluation**
-- **3 instructed filings pending publication**
+- **10 granted patents**
+- **4 applications currently under evaluation**
+- **8 instructed filings pending publication**
 
 This page highlights the **publicly available patents and applications** associated with my work.
 
