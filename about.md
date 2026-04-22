@@ -4,62 +4,60 @@ title: About
 permalink: /about/
 ---
 
-**Director, Software Engineering**
-Embedded Systems & Connected Product Platforms
+**Engineering Leader → AI Transformation Leader**
+Connected Products · Agentic AI · Product Strategy
 
-I am a software engineering leader focused on embedded systems and connected product platforms. My work centers on guiding technical direction, building strong engineering teams, and delivering complex product programs that translate user and business needs into reliable, scalable systems.
+I am a technical leader with 15+ years building embedded software and connected product platforms — now transitioning toward AI transformation and product leadership. My work sits at the intersection of engineering depth, connected product strategy, and organizational change driven by AI.
 
-Currently, I serve as Director of Software Engineering at GE Appliances, where I lead development of embedded software platforms supporting multiple appliance product lines. In this role I guide technical strategy, shape multi-release software roadmaps, and coordinate cross-functional teams responsible for delivering connected product capabilities.
+Currently serving as Director of Software Engineering at GE Appliances, I lead a global team of 25+ engineers delivering software platforms across laundry appliance product lines. Beyond execution, I am focused on how AI and agentic systems can transform the way connected products are built, how data becomes intelligence, and how engineering organizations evolve to compete in an AI-native world.
 
-My work involves aligning engineering, hardware, systems, and connected technology teams to execute complex new product introductions while ensuring software quality, reliability, and long-term platform scalability. Many of the programs I lead involve global engineering collaboration, requiring coordination across teams located in multiple regions and disciplines.
+I am pursuing an MIT Professional Education certificate in Applied Agentic AI for Organizational Transformation — and I write about what I'm learning at the intersection of connected products, AI strategy, and the future of product leadership.
 
 ---
 
 ## Professional Journey
 
-I grew up in Atlixco, Puebla, a small town in Mexico. From an early age, I was drawn to understanding how things worked and finding ways to improve them. Curiosity and problem solving were constant themes growing up, and engineering eventually became the natural path to pursue those interests.
+I grew up in Atlixco, Puebla, a small town in Mexico. From an early age I was drawn to understanding how things worked and finding ways to improve them. Curiosity and problem solving were constant themes, and engineering became the natural path to pursue those interests.
 
-My first exposure to software came in middle school. I quickly realized that software provided a powerful way to solve complex problems. While my formal education began in electronics engineering—combining hardware and software systems—it became clear early in my career that software development was where I could have the greatest impact.
+My first exposure to software came in middle school. I quickly realized it was a powerful way to solve complex problems. My formal education began in electronics engineering — combining hardware and software systems — but it became clear early in my career that software was where I could have the greatest impact.
 
-Over time, my work evolved from implementing embedded algorithms and firmware modules to leading increasingly complex programs involving multiple teams, subsystems, and product platforms.
+Over time my work evolved from implementing embedded algorithms and firmware modules to leading increasingly complex programs across multiple teams, subsystems, and product platforms. And now, to asking a bigger question: how do we build organizations and products that don't just use AI — but are fundamentally shaped by it?
 
 ---
 
-## Leadership and Impact
+## Leadership Philosophy
 
-My transition into leadership happened naturally as the scope of my responsibilities grew. At one point in my career I found myself responsible for navigating a particularly complex program involving multiple technical domains and stakeholders. While the work was demanding, I realized I had developed the ability to identify the right priorities, anticipate risks, and guide the team toward the next critical step.
-
-That experience changed how I viewed my role. I was no longer focused only on solving individual technical problems—I was helping guide the broader effort required to deliver a successful product.
-
-Around the same time, colleagues and engineers increasingly came to me for guidance and coaching. I discovered that I genuinely enjoyed helping others develop their skills and navigate difficult technical decisions. That combination—delivering complex programs while supporting the growth of engineers—ultimately led me toward engineering leadership.
-
-Today, my leadership style focuses on three core principles:
+My leadership style is built on three principles:
 
 **Systems Thinking**
-Understanding how technology, people, and product strategy interact to produce successful outcomes.
+Technology, people, and product strategy are interconnected. I focus on how they interact — not just how each performs in isolation.
 
 **Building Strong Teams**
-Developing engineers and creating an environment where teams can perform at their best.
+High-performing teams don't happen by accident. They are built through deliberate hiring, clear expectations, and an environment where engineers can do their best work.
 
 **Pragmatic Execution**
-Maintaining focus on delivering real products and solving real customer problems.
+Vision without delivery is noise. I maintain focus on shipping real products that solve real problems — while keeping one eye on where things are heading.
 
 ---
 
-## Technology Focus
+## Areas of Expertise
 
-My work has been concentrated in several core domains:
-
-- Embedded systems and product software platforms
-- Safety-critical firmware and system reliability
-- Connected consumer products and appliance technologies
-
-Across these areas I have contributed to the development and launch of multiple product platforms and to patented innovations in consumer appliance technology.
+- Agentic AI strategy and organizational transformation
+- Connected product platforms and IoT data intelligence
+- Embedded systems and safety-critical firmware
+- AI-enabled product leadership and feature definition
+- Scaling global engineering teams and processes
 
 ---
 
-## Beyond the Code
+## Where I'm Headed
 
-While I remain deeply interested in the technical aspects of embedded systems, I believe the most meaningful impact comes from building teams and systems that allow innovation to scale.
+My near-term goal is to transition from engineering leadership into a product or AI transformation leadership role — Director of Product Management, Chief Product Officer, or equivalent. I am positioned uniquely to bridge engineering execution and product strategy, hardware constraints and digital experience, and operational rigor with AI-native thinking.
 
-Engineering leadership is ultimately about enabling people to solve difficult problems together and delivering products that improve everyday experiences for customers.
+The MIT certification is one step. The Insights I publish here are another. The products I help build are the proof.
+
+---
+
+## Beyond the Work
+
+I believe the most meaningful impact comes from building teams and systems that allow innovation to scale — and from staying genuinely curious about what comes next. That curiosity is what brought me from a small town in Mexico to leading global engineering teams, and it's what's driving me toward AI transformation leadership now.
