@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Efren Rodriguez"
+permalink: /
 ---
 
 <div class="hero">
