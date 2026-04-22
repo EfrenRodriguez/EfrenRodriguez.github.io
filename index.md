@@ -1,6 +1,6 @@
 ---
-layout: single
-title: Home
+layout: home
+title: "Efren Rodriguez"
 permalink: /
 ---
 
@@ -10,33 +10,34 @@ permalink: /
 
 <h1>Efren Rodriguez</h1>
 
-<p><strong>Director, Software Engineering</strong><br>
-Embedded Systems & Connected Product Platforms</p>
+<p><strong>Engineering Leader → AI Transformation Leader</strong><br>
+Connected Products · Agentic AI · Product Strategy</p>
 
-<p>Builder of high-performing engineering organizations.</p>
+<p>I help organizations move from using AI as a tool to embedding it as a capability — across products, teams, and decision-making.</p>
 
 </div>
 
 ---
 
-I lead engineering teams developing embedded software platforms and connected consumer products. My work focuses on transforming complex business and user needs into scalable technical systems that deliver reliable products.
+My foundation is 15+ years building embedded software and connected product platforms. Today, I lead engineering teams developing AI-enabled appliances at GE Appliances — and I'm actively making the transition from engineering execution to product and AI transformation leadership.
 
-Currently serving as Director of Software Engineering at GE Appliances, I guide technical strategy, coordinate global engineering teams, and deliver connected product platforms across consumer appliance systems.
+I'm pursuing an MIT Professional Education certificate in Applied Agentic AI for Organizational Transformation, and I write about what I'm learning at the intersection of connected products, AI strategy, and engineering leadership.
 
 ---
 
 ## Areas of Focus
 
-- Embedded systems architecture
-- Connected product platforms
-- Engineering leadership and team development
-- Safety-critical firmware and product reliability
+- **Agentic AI & Organizational Transformation** — applying AI agents to reshape how teams operate and products are built
+- **Connected Product Strategy** — translating IoT and appliance data into intelligent, user-centric experiences
+- **AI-Enabled Product Leadership** — bridging the gap between engineering depth and product vision
+- **Scaling Engineering Organizations** — building the people, processes, and platforms that allow innovation to compound
 
 ---
 
 ## Explore
 
-- [About](about.md) – Professional background and leadership philosophy
-- [Career Timeline](timeline.md) – Roles, platforms, and major programs
-- [Patents & Innovation](patents.md) – Intellectual property and innovation work
-- [Contact](contact.md) – Professional contact information
+- [About](about/) – Background, philosophy, and where I'm headed
+- [Career Timeline](timeline/) – Roles, platforms, and major programs
+- [Patents & Innovation](patents/) – Intellectual property and innovation work
+- [Insights](insights/) – Frameworks, lessons, and POVs on AI, product, and leadership
+- [Contact](contact/) – Let's connect
