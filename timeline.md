@@ -6,101 +6,113 @@ permalink: /timeline/
 
 My career has focused on building embedded systems and connected consumer products, evolving from firmware development to leading global engineering teams responsible for complex product platforms.
 
----
+<div class="timeline">
 
-## 2023 — Present
-### Director, Software Engineering
-**GE Appliances**
+  <div class="timeline-entry">
+    <div class="timeline-year">2023<br>Present</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-body">
+      <h3>Director, Software Engineering</h3>
+      <div class="tl-company">GE Appliances</div>
+      <p>Lead the software organization responsible for embedded platforms and connected experiences across residential laundry products.</p>
+      <ul>
+        <li>Lead a global engineering organization with <strong>14 direct reports and 25–30 indirect contributors</strong></li>
+        <li>Expanded scope from embedded software ownership to <strong>full connected product delivery</strong>, coordinating firmware, mobile app, and cloud teams</li>
+        <li>Scaled the organization from <strong>8–9 engineers to 14 engineers</strong></li>
+        <li>Introduced a <strong>centralized requirements management library</strong> enabling collaborative engineering ownership</li>
+        <li>Guide multi-release software roadmaps for connected appliance platforms</li>
+      </ul>
+    </div>
+  </div>
 
-Lead the software organization responsible for embedded platforms and connected experiences across residential laundry products.
+  <div class="timeline-entry">
+    <div class="timeline-year">2022<br>2023</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-body">
+      <h3>Principal Software Engineer</h3>
+      <div class="tl-company">GE Appliances</div>
+      <p>Led software development and program coordination for residential washer platforms.</p>
+      <ul>
+        <li>Delivered the <strong>2022 Top Load Washer platform with built-in Alexa voice integration</strong></li>
+        <li>Coordinated cross-functional engineering teams using Agile development practices</li>
+        <li>Managed effort estimation, scheduling, and risk mitigation for full software delivery</li>
+        <li>Led root cause investigations for system-level failures</li>
+      </ul>
+    </div>
+  </div>
 
-**Highlights**
+  <div class="timeline-entry">
+    <div class="timeline-year">2020<br>2022</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-body">
+      <h3>Senior Software Engineer</h3>
+      <div class="tl-company">GE Appliances</div>
+      <p>Focused on platform development and integration of embedded firmware across appliance subsystems.</p>
+      <ul>
+        <li>Key contributor to the <strong>2020 Front Load Washer platform</strong>, helping expand market share in front-load systems</li>
+        <li>Integrated third-party firmware and defined system APIs</li>
+        <li>Delivered software supporting safety, performance, serviceability, and manufacturing</li>
+        <li>Supported launch of <strong>multiple washer platforms</strong></li>
+      </ul>
+    </div>
+  </div>
 
-- Lead a global engineering organization with **14 direct reports and 25–30 indirect contributors**
-- Expanded scope from embedded software ownership to **full connected product delivery**, coordinating firmware, mobile app, and cloud teams
-- Scaled the organization from **8–9 engineers to 14 engineers**
-- Introduced a **centralized requirements management library** enabling collaborative engineering ownership
-- Guide multi-release software roadmaps for connected appliance platforms
+  <div class="timeline-entry">
+    <div class="timeline-year">2018<br>2020</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-body">
+      <h3>Embedded Software Engineer</h3>
+      <div class="tl-company">GE Appliances</div>
+      <p>Developed embedded firmware and algorithms for washer systems.</p>
+      <ul>
+        <li>Implemented core washer algorithms including <strong>load size detection and out-of-balance detection</strong></li>
+        <li>Led multi-board embedded system integration</li>
+        <li>Developed firmware compliant with <strong>UL Class B safety requirements</strong></li>
+      </ul>
+    </div>
+  </div>
 
----
+  <div class="timeline-entry">
+    <div class="timeline-year">2017<br>2018</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-body">
+      <h3>Software Engineer</h3>
+      <div class="tl-company">Harman International</div>
+      <p>Developed embedded software for automotive amplifier systems.</p>
+      <ul>
+        <li>Implemented RTOS-based software modules for Class-D amplifier platforms</li>
+        <li>Developed communication interfaces with vehicle head units</li>
+        <li>Contributed to automotive embedded audio system architecture</li>
+      </ul>
+    </div>
+  </div>
 
-## 2022 — 2023
-### Principal Software Engineer
-**GE Appliances**
+  <div class="timeline-entry">
+    <div class="timeline-year">2011<br>2017</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-body">
+      <h3>Software Engineer</h3>
+      <div class="tl-company">Mabe</div>
+      <p>Early career focused on embedded software development for consumer appliances.</p>
+      <ul>
+        <li>Developed firmware for appliance platforms using microcontroller architectures</li>
+        <li>Supported product compliance with <strong>UL, IEC, and DOE regulations</strong></li>
+        <li>Participated in field diagnostics and manufacturing ramp-up</li>
+        <li>Built the technical foundation that led to later leadership roles</li>
+      </ul>
+    </div>
+  </div>
 
-Led software development and program coordination for residential washer platforms.
+</div>
 
-**Highlights**
-
-- Delivered the **2022 Top Load Washer platform with built-in Alexa voice integration**
-- Coordinated cross-functional engineering teams using Agile development practices
-- Managed effort estimation, scheduling, and risk mitigation for full software delivery
-- Led root cause investigations for system-level failures
-
----
-
-## 2020 — 2022
-### Senior Software Engineer
-**GE Appliances**
-
-Focused on platform development and integration of embedded firmware across appliance subsystems.
-
-**Highlights**
-
-- Key contributor to the **2020 Front Load Washer platform**, helping expand market share in front-load systems
-- Integrated third-party firmware and defined system APIs
-- Delivered software supporting safety, performance, serviceability, and manufacturing
-- Supported launch of **multiple washer platforms**
-
----
-
-## 2018 — 2020
-### Embedded Software Engineer
-**GE Appliances**
-
-Developed embedded firmware and algorithms for washer systems.
-
-**Highlights**
-
-- Implemented core washer algorithms including **load size detection and out-of-balance detection**
-- Led multi-board embedded system integration
-- Developed firmware compliant with **UL Class B safety requirements**
-
----
-
-## 2017 — 2018
-### Software Engineer
-**Harman International**
-
-Developed embedded software for automotive amplifier systems.
-
-**Highlights**
-
-- Implemented RTOS-based software modules for Class-D amplifier platforms
-- Developed communication interfaces with vehicle head units
-- Contributed to automotive embedded audio system architecture
-
----
-
-## 2011 — 2017
-### Software Engineer
-**Mabe**
-
-Early career focused on embedded software development for consumer appliances.
-
-**Highlights**
-
-- Developed firmware for appliance platforms using microcontroller architectures
-- Supported product compliance with **UL, IEC, and DOE regulations**
-- Participated in field diagnostics and manufacturing ramp-up
-- Built the technical foundation that led to later leadership roles
-
----
-
-## Education
-
-**Master’s Degree — Innovation Management**
-Tecnológico de Monterrey
-
-**Electronics Engineering (Graduated with Honors)**
-Tecnológico de Monterrey
+<div class="timeline-education">
+  <h2>Education</h2>
+  <div class="tl-edu-entry">
+    <strong>Master's Degree — Innovation Management</strong>
+    <span>Tecnológico de Monterrey</span>
+  </div>
+  <div class="tl-edu-entry">
+    <strong>Electronics Engineering (Graduated with Honors)</strong>
+    <span>Tecnológico de Monterrey</span>
+  </div>
+</div>
