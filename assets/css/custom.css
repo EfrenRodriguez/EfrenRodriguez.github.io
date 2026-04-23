@@ -158,6 +158,150 @@ a {
   box-shadow: 0 0 0 3px rgba(14, 140, 111, 0.2), 0 8px 20px rgba(14, 140, 111, 0.2);
 }
 
+/* ── Visual Timeline ─────────────────────────────────────────── */
+
+.timeline {
+  position: relative;
+  padding: 0.5rem 0 1rem;
+  margin-top: 1.5rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 7rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--brand-accent) 0%, #dde6ef 100%);
+}
+
+.timeline-entry {
+  position: relative;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.timeline-year {
+  flex: 0 0 7rem;
+  text-align: right;
+  padding-top: 0.2rem;
+  padding-right: 1.4rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--brand-accent);
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: calc(7rem - 5px);
+  top: 0.45rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--brand-accent);
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 2px var(--brand-accent);
+  z-index: 1;
+}
+
+.timeline-body {
+  flex: 1;
+  background: #f8fafb;
+  border: 1px solid #e4edf0;
+  border-radius: 10px;
+  padding: 0.9rem 1.1rem;
+}
+
+.timeline-body h3 {
+  margin: 0 0 0.15rem;
+  font-size: 1rem;
+  color: var(--brand-ink);
+  border: none;
+}
+
+.timeline-body .tl-company {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--brand-accent);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-body p {
+  font-size: 0.93rem;
+  color: #4a5568;
+  margin-bottom: 0.55rem;
+}
+
+.timeline-body ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.9rem;
+  color: #3d4a58;
+}
+
+.timeline-body ul li {
+  margin-bottom: 0.22rem;
+}
+
+.timeline-education {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid #dde6ef;
+}
+
+.timeline-education h2 {
+  color: var(--brand-ink);
+  margin-bottom: 1rem;
+}
+
+.tl-edu-entry {
+  margin-bottom: 0.9rem;
+}
+
+.tl-edu-entry strong {
+  display: block;
+  color: var(--brand-ink);
+}
+
+.tl-edu-entry span {
+  font-size: 0.9rem;
+  color: #5a6a7a;
+}
+
+@media (max-width: 640px) {
+  .timeline::before {
+    left: 0;
+  }
+
+  .timeline-entry {
+    flex-direction: column;
+    gap: 0.4rem;
+    padding-left: 1.2rem;
+  }
+
+  .timeline-year {
+    flex: none;
+    text-align: left;
+    padding-right: 0;
+    padding-left: 0.8rem;
+  }
+
+  .timeline-dot {
+    left: -5px;
+  }
+
+  .timeline-body {
+    width: 100%;
+  }
+}
+
+/* ── End Visual Timeline ─────────────────────────────────────── */
+
 @media (max-width: 900px) {
   .page {
     border-radius: 10px;
