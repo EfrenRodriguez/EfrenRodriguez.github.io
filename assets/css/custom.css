@@ -400,6 +400,45 @@ a {
 
 /* ── End Patents Page ────────────────────────────────────────── */
 
+@media (max-width: 640px) {
+  /* Stat cards: ensure dark background and white text survive theme overrides */
+  .stat-card {
+    flex: 1 1 100%;
+    background: linear-gradient(135deg, var(--brand-ink) 0%, #243d66 100%) !important;
+    color: #ffffff !important;
+  }
+
+  .stat-card .stat-number {
+    color: #ffffff !important;
+  }
+
+  .stat-card .stat-label {
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+
+  /* Patent cards: switch from row to column layout on mobile */
+  .patent-card {
+    display: block;
+    padding: 0.75rem 0.9rem;
+  }
+
+  .patent-card .patent-num {
+    display: block;
+    margin-bottom: 0.25rem;
+    white-space: normal;
+  }
+
+  .patent-card .patent-title {
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+
+  .patent-card .patent-year {
+    display: block;
+    padding-top: 0;
+  }
+}
+
 @media (max-width: 900px) {
   .page {
     border-radius: 10px;
