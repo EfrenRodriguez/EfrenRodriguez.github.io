@@ -4,17 +4,24 @@ title: Patents and Innovation
 permalink: /patents/
 ---
 
-Innovation has been an important part of my work throughout my career in embedded systems and connected consumer appliances. Many of the engineering problems involved in modern appliance platforms require new approaches to sensing, control algorithms, system coordination, and connected product behavior.
+Across 15+ years in embedded systems and connected consumer appliances, I have contributed to over 20 patent filings — from low-level sensing algorithms to connected product coordination across appliance ecosystems. These inventions reflect engineering work done at the intersection of hardware constraints, software design, and real-world product delivery.
 
-Over the course of my career I have contributed to **multiple patent applications**, including:
+<div class="patent-stats">
+  <div class="stat-card">
+    <span class="stat-number">10</span>
+    <span class="stat-label">Granted Patents</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number">4</span>
+    <span class="stat-label">Under Evaluation</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number">8</span>
+    <span class="stat-label">Pending Publication</span>
+  </div>
+</div>
 
-- **10 granted patents**
-- **4 applications currently under evaluation**
-- **8 instructed filings pending publication**
-
-This page highlights the **publicly available patents and applications** associated with my work.
-
-Most of these inventions relate to:
+This page highlights the publicly available patents and applications associated with my work. These inventions span:
 
 - Connected appliance coordination
 - Laundry system optimization
@@ -25,30 +32,86 @@ Most of these inventions relate to:
 
 ## Granted Patents
 
-| Patent                                                                                     | Title                                                                               | Year |
-|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|------|
-| [US20240247421A1](https://patents.google.com/patent/US20240247421A1/en?oq=US20240247421A1) | Domestic appliances and methods of automatic calibration                            | 2026 |
-| [US12258696B2](https://patents.google.com/patent/US12258696B2/en?oq=US12258696B2)          | Laundry treatment appliance and method of identifying a laundry treatment operation | 2025 |
-| [US12442120B2](https://patents.google.com/patent/US12442120B2/en?oq=US12442120B2)          | Laundry treatment appliance and method of determining laundry load weight           | 2025 |
-| [US12467184B2](https://patents.google.com/patent/US12467184B2/en?oq=US12467184B2)          | Laundry assembly and method for controlling a connected laundry appliance           | 2025 |
-| [US12421640B2](https://patents.google.com/patent/US12421640B2/en?oq=US12421640B2)          | Commercial laundry appliance system and method of tracking additive usage           | 2025 |
-| [US12286741B2](https://patents.google.com/patent/US12286741B2/en?oq=US12286741B2)          | Methods and systems for laundry assembly control                                    | 2025 |
-| [US11891750B2](https://patents.google.com/patent/US11891750B2/en?oq=US11891750B2)          | Dryer appliance and methods for additive dispensing                                 | 2024 |
-| [US11692299B2](https://patents.google.com/patent/US11692299B2/en?oq=US11692299B2)          | Dryer appliance and methods for improved operation                                  | 2023 |
-| [US11851798B1](https://patents.google.com/patent/US11851798B1/en?oq=US11851798B1)          | Methods for implementing cleaning cycles in commercial washing machine appliances   | 2023 |
-| [US11608579B2](https://patents.google.com/patent/US11608579B2/en?oq=US11608579B2)          | Multiple load laundry appliance communication                                       | 2023 |
+<div class="patent-grid">
+  <a class="patent-card" href="https://patents.google.com/patent/US20240247421A1/en?oq=US20240247421A1" target="_blank" rel="noopener">
+    <span class="patent-num">US20240247421A1</span>
+    <span class="patent-title">Domestic appliances and methods of automatic calibration</span>
+    <span class="patent-year">2026</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US12258696B2/en?oq=US12258696B2" target="_blank" rel="noopener">
+    <span class="patent-num">US12258696B2</span>
+    <span class="patent-title">Laundry treatment appliance and method of identifying a laundry treatment operation</span>
+    <span class="patent-year">2025</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US12442120B2/en?oq=US12442120B2" target="_blank" rel="noopener">
+    <span class="patent-num">US12442120B2</span>
+    <span class="patent-title">Laundry treatment appliance and method of determining laundry load weight</span>
+    <span class="patent-year">2025</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US12467184B2/en?oq=US12467184B2" target="_blank" rel="noopener">
+    <span class="patent-num">US12467184B2</span>
+    <span class="patent-title">Laundry assembly and method for controlling a connected laundry appliance</span>
+    <span class="patent-year">2025</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US12421640B2/en?oq=US12421640B2" target="_blank" rel="noopener">
+    <span class="patent-num">US12421640B2</span>
+    <span class="patent-title">Commercial laundry appliance system and method of tracking additive usage</span>
+    <span class="patent-year">2025</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US12286741B2/en?oq=US12286741B2" target="_blank" rel="noopener">
+    <span class="patent-num">US12286741B2</span>
+    <span class="patent-title">Methods and systems for laundry assembly control</span>
+    <span class="patent-year">2025</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US11891750B2/en?oq=US11891750B2" target="_blank" rel="noopener">
+    <span class="patent-num">US11891750B2</span>
+    <span class="patent-title">Dryer appliance and methods for additive dispensing</span>
+    <span class="patent-year">2024</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US11692299B2/en?oq=US11692299B2" target="_blank" rel="noopener">
+    <span class="patent-num">US11692299B2</span>
+    <span class="patent-title">Dryer appliance and methods for improved operation</span>
+    <span class="patent-year">2023</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US11851798B1/en?oq=US11851798B1" target="_blank" rel="noopener">
+    <span class="patent-num">US11851798B1</span>
+    <span class="patent-title">Methods for implementing cleaning cycles in commercial washing machine appliances</span>
+    <span class="patent-year">2023</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US11608579B2/en?oq=US11608579B2" target="_blank" rel="noopener">
+    <span class="patent-num">US11608579B2</span>
+    <span class="patent-title">Multiple load laundry appliance communication</span>
+    <span class="patent-year">2023</span>
+  </a>
+</div>
 
 ---
 
 ## Published Patent Applications
 
-| Application     | Title                                                                   | Year |
-|-----------------|-------------------------------------------------------------------------|------|
-| [US20230392316A1](https://patents.google.com/patent/US20230392316A1/en?oq=US20230392316A1) | Sharing cycle settings between connected appliances                     | 2023 |
-| [US20240125040A1](https://patents.google.com/patent/US20240125040A1/en?oq=US20240125040A1) | Method for scheduling and executing a warmup cycle in a dryer appliance | 2024 |
-| [US20240309573A1](https://patents.google.com/patent/US20240309573A1/en?oq=US20240309573A1) | Household appliances proximity detection                                | 2024 |
-| [US20250369170A1](https://patents.google.com/patent/US20250369170A1/en?oq=US20250369170A1) | Method of operating a laundry treatment appliance to diagnose faults    | 2025 |
+<div class="patent-grid">
+  <a class="patent-card" href="https://patents.google.com/patent/US20230392316A1/en?oq=US20230392316A1" target="_blank" rel="noopener">
+    <span class="patent-num">US20230392316A1</span>
+    <span class="patent-title">Sharing cycle settings between connected appliances</span>
+    <span class="patent-year">2023</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US20240125040A1/en?oq=US20240125040A1" target="_blank" rel="noopener">
+    <span class="patent-num">US20240125040A1</span>
+    <span class="patent-title">Method for scheduling and executing a warmup cycle in a dryer appliance</span>
+    <span class="patent-year">2024</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US20240309573A1/en?oq=US20240309573A1" target="_blank" rel="noopener">
+    <span class="patent-num">US20240309573A1</span>
+    <span class="patent-title">Household appliances proximity detection</span>
+    <span class="patent-year">2024</span>
+  </a>
+  <a class="patent-card" href="https://patents.google.com/patent/US20250369170A1/en?oq=US20250369170A1" target="_blank" rel="noopener">
+    <span class="patent-num">US20250369170A1</span>
+    <span class="patent-title">Method of operating a laundry treatment appliance to diagnose faults</span>
+    <span class="patent-year">2025</span>
+  </a>
+</div>
 
----
-
-For a full list of public filings, see [here](https://patents.google.com/?q=(Haier)&inventor=Efren+Rodriguez)
+<div class="patent-footer">
+  <a href="https://patents.google.com/?q=(Haier)&inventor=Efren+Rodriguez" target="_blank" rel="noopener">View all public filings on Google Patents →</a>
+</div>

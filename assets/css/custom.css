@@ -302,6 +302,104 @@ a {
 
 /* ── End Visual Timeline ─────────────────────────────────────── */
 
+/* ── Patents Page ────────────────────────────────────────────── */
+
+.patent-stats {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  flex: 1 1 8rem;
+  background: linear-gradient(135deg, var(--brand-ink) 0%, #243d66 100%);
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 1.1rem 1.2rem;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(26, 43, 73, 0.18);
+}
+
+.stat-card .stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.stat-card .stat-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 0.3rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.patent-grid {
+  display: grid;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.patent-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #f8fafb;
+  border: 1px solid #e4edf0;
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+.patent-card:hover {
+  background: #ffffff;
+  border-color: var(--brand-accent);
+  box-shadow: 0 4px 14px rgba(14, 140, 111, 0.1);
+  text-decoration: none;
+  color: inherit;
+}
+
+.patent-card .patent-num {
+  flex: 0 0 auto;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--brand-accent);
+  letter-spacing: 0.03em;
+  padding-top: 0.18rem;
+  white-space: nowrap;
+}
+
+.patent-card .patent-title {
+  flex: 1;
+  font-size: 0.93rem;
+  color: var(--brand-ink);
+  line-height: 1.45;
+}
+
+.patent-card .patent-year {
+  flex: 0 0 auto;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #8a9aaa;
+  padding-top: 0.18rem;
+}
+
+.patent-footer {
+  margin-top: 1.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid #e4edf0;
+  font-size: 0.93rem;
+}
+
+/* ── End Patents Page ────────────────────────────────────────── */
+
 @media (max-width: 900px) {
   .page {
     border-radius: 10px;
