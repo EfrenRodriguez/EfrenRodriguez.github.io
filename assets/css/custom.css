@@ -217,6 +217,56 @@ a {
   padding: 0.9rem 1.1rem;
 }
 
+/* Expandable card header */
+.tl-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+  gap: 0.5rem;
+  border-radius: 6px;
+  margin: -0.2rem -0.2rem 0;
+  padding: 0.2rem;
+  transition: background-color 0.15s ease;
+}
+
+.tl-header:hover {
+  background: rgba(14, 140, 111, 0.06);
+}
+
+.tl-header-text {
+  flex: 1;
+}
+
+.tl-chevron {
+  flex: 0 0 auto;
+  color: #9aabb8;
+  transition: transform 0.25s ease, color 0.15s ease;
+  display: flex;
+  align-items: center;
+}
+
+.tl-chevron.is-open {
+  transform: rotate(180deg);
+  color: var(--brand-accent);
+}
+
+/* Collapsible details */
+.tl-details {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.35s ease, opacity 0.25s ease, margin-top 0.25s ease;
+  margin-top: 0;
+}
+
+.tl-details.is-open {
+  max-height: 600px;
+  opacity: 1;
+  margin-top: 0.75rem;
+}
+
 .timeline-body h3 {
   margin: 0 0 0.15rem;
   font-size: 1rem;
@@ -228,7 +278,7 @@ a {
   font-size: 0.88rem;
   font-weight: 600;
   color: var(--brand-accent);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 .timeline-body p {
