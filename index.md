@@ -6,7 +6,10 @@ permalink: /
 
 <div class="hero">
 
-<img src="assets/images/profilePicture.png" width="180" style="border-radius:50%;" alt="Efren Rodriguez" />
+<picture>
+  <source srcset="assets/images/profilePicture.webp" type="image/webp" />
+  <img src="assets/images/profilePicture.png" width="180" style="border-radius:50%;" alt="Efren Rodriguez" />
+</picture>
 
 <h1>Efren Rodriguez</h1>
 
