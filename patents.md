@@ -33,8 +33,8 @@ This page highlights the publicly available patents and applications associated 
 ## Granted Patents
 
 <div class="patent-grid">
-  <a class="patent-card" href="https://patents.google.com/patent/US20240247421A1/en?oq=US20240247421A1" target="_blank" rel="noopener">
-    <span class="patent-num">US20240247421A1</span>
+  <a class="patent-card" href="https://patents.google.com/patent/US12595609B2/en?oq=US12595609B2" target="_blank" rel="noopener">
+    <span class="patent-num">US12595609B2</span>
     <span class="patent-title">Domestic appliances and methods of automatic calibration</span>
     <span class="patent-year">2026</span>
   </a>
