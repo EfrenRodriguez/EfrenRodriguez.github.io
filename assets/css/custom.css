@@ -544,11 +544,16 @@ html[data-theme="dark"] {
 }
 
 html[data-theme="dark"] body {
-  color: var(--text-main);
+  color: var(--text-main) !important;
   background:
     radial-gradient(circle at 15% -10%, rgba(56, 217, 178, 0.06), rgba(56, 217, 178, 0) 35%),
     radial-gradient(circle at 85% 0%, rgba(26, 43, 73, 0.35), rgba(26, 43, 73, 0) 35%),
     linear-gradient(180deg, #0e1420 0%, #111828 50%, #0d1318 100%);
+}
+
+/* Override air skin's global link color (#393e46 — near-black) */
+html[data-theme="dark"] a {
+  color: var(--brand-accent);
 }
 
 html[data-theme="dark"] .masthead {
@@ -556,7 +561,13 @@ html[data-theme="dark"] .masthead {
   border-bottom-color: rgba(255, 255, 255, 0.07);
 }
 
+/* Override greedy-nav's hardcoded background: #eee from main.css */
+html[data-theme="dark"] .greedy-nav {
+  background: transparent !important;
+}
+
 html[data-theme="dark"] .site-title,
+html[data-theme="dark"] .site-title:link,
 html[data-theme="dark"] .site-title:visited {
   color: #e8f0f8 !important;
 }
