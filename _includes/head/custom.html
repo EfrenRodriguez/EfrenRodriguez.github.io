@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
+<!-- Apply theme before first paint to prevent flash -->
+<script>(function(){var t=localStorage.getItem('er-theme')||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})();</script>
+<script defer src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+
 {% assign og_title = page.title | default: site.title %}
 {% assign og_description = page.excerpt | default: page.description | default: site.description %}
 {% assign og_image = page.og_image | default: site.og_image %}

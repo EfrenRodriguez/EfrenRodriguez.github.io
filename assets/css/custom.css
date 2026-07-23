@@ -495,3 +495,172 @@ a {
     padding: 0.5rem;
   }
 }
+
+/* ── Theme Toggle Button ────────────────────────────────────── */
+
+#theme-toggle {
+  background: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0.35rem 0.45rem;
+  color: var(--text-main);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  margin-left: 0.75rem;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+#theme-toggle:hover {
+  background: rgba(14, 140, 111, 0.1);
+  color: var(--brand-accent);
+  border-color: rgba(14, 140, 111, 0.2);
+}
+
+#theme-toggle svg {
+  display: block;
+}
+
+/* ── Dark Mode ──────────────────────────────────────────────── */
+
+html[data-theme="dark"] {
+  --brand-ink: #c5d5e8;
+  --brand-accent: #29b898;
+  --surface: #161c2d;
+  --text-main: #b0c2d4;
+}
+
+/* Fallback: honour OS preference if JS hasn't run yet */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    --brand-ink: #c5d5e8;
+    --brand-accent: #29b898;
+    --surface: #161c2d;
+    --text-main: #b0c2d4;
+  }
+}
+
+html[data-theme="dark"] body {
+  color: var(--text-main);
+  background:
+    radial-gradient(circle at 15% -10%, rgba(41, 184, 152, 0.07), rgba(41, 184, 152, 0) 35%),
+    radial-gradient(circle at 85% 0%, rgba(26, 43, 73, 0.3), rgba(26, 43, 73, 0) 35%),
+    linear-gradient(180deg, #0d111d 0%, #111520 50%, #0e1419 100%);
+}
+
+html[data-theme="dark"] .masthead {
+  background-color: rgba(13, 17, 29, 0.92);
+  border-bottom-color: rgba(255, 255, 255, 0.07);
+}
+
+html[data-theme="dark"] .masthead__menu-item a,
+html[data-theme="dark"] .site-title {
+  color: var(--brand-ink);
+}
+
+html[data-theme="dark"] .page {
+  background: var(--surface);
+  border-color: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme="dark"] .page__title {
+  color: var(--brand-ink);
+}
+
+html[data-theme="dark"] .page__content {
+  color: var(--text-main);
+}
+
+html[data-theme="dark"] .page__content h2 {
+  border-bottom-color: rgba(255, 255, 255, 0.09);
+}
+
+html[data-theme="dark"] hr {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Timeline — dark */
+html[data-theme="dark"] .timeline::before {
+  background: linear-gradient(180deg, var(--brand-accent) 0%, rgba(255, 255, 255, 0.08) 100%);
+}
+
+html[data-theme="dark"] .timeline-body {
+  background: #1b2235;
+  border-color: rgba(255, 255, 255, 0.07);
+}
+
+html[data-theme="dark"] .tl-header:hover {
+  background: rgba(41, 184, 152, 0.07);
+}
+
+html[data-theme="dark"] .timeline-body h3 {
+  color: var(--brand-ink);
+}
+
+html[data-theme="dark"] .timeline-body p {
+  color: #8aa0b8;
+}
+
+html[data-theme="dark"] .timeline-body ul {
+  color: #7a90a8;
+}
+
+html[data-theme="dark"] .tl-edu-entry strong {
+  color: var(--brand-ink);
+}
+
+html[data-theme="dark"] .tl-edu-entry span {
+  color: #7a90a8;
+}
+
+html[data-theme="dark"] .timeline-education {
+  border-top-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Patents — dark */
+html[data-theme="dark"] .patent-card {
+  background: #1b2235;
+  border-color: rgba(255, 255, 255, 0.07);
+  color: inherit;
+}
+
+html[data-theme="dark"] .patent-card:hover {
+  background: #1f2840;
+  border-color: var(--brand-accent);
+  box-shadow: 0 4px 14px rgba(41, 184, 152, 0.12);
+}
+
+html[data-theme="dark"] .patent-card .patent-title {
+  color: var(--brand-ink);
+}
+
+html[data-theme="dark"] .patent-card .patent-year {
+  color: #6a80a0;
+}
+
+html[data-theme="dark"] .patent-footer {
+  border-top-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Contact form — dark */
+html[data-theme="dark"] .contact-form label {
+  color: var(--brand-ink);
+}
+
+html[data-theme="dark"] .contact-form input[type="email"],
+html[data-theme="dark"] .contact-form textarea {
+  background: #1b2235;
+  border-color: #2a3a50;
+  color: var(--text-main);
+}
+
+html[data-theme="dark"] .contact-form input[type="email"]:focus,
+html[data-theme="dark"] .contact-form textarea:focus {
+  background: #1f2840;
+  border-color: var(--brand-accent);
+  box-shadow: 0 0 0 3px rgba(41, 184, 152, 0.14);
+}
