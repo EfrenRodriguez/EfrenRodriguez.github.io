@@ -102,6 +102,7 @@ a {
   font-weight: 600;
 }
 
+.contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
   width: 100%;
@@ -122,6 +123,7 @@ a {
   resize: vertical;
 }
 
+.contact-form input[type="text"]:focus,
 .contact-form input[type="email"]:focus,
 .contact-form textarea:focus {
   outline: none;
@@ -669,20 +671,27 @@ html[data-theme="dark"] .patent-footer {
 }
 
 /* Contact form — dark */
+html[data-theme="dark"] .contact-form,
+html[data-theme="dark"] form {
+  background: transparent !important;
+}
+
 html[data-theme="dark"] .contact-form label {
   color: var(--brand-ink);
 }
 
+html[data-theme="dark"] .contact-form input[type="text"],
 html[data-theme="dark"] .contact-form input[type="email"],
 html[data-theme="dark"] .contact-form textarea {
-  background: #182030;
-  border-color: #2a3a52;
-  color: var(--text-main);
+  background: #182030 !important;
+  border-color: #2a3a52 !important;
+  color: var(--text-main) !important;
 }
 
+html[data-theme="dark"] .contact-form input[type="text"]:focus,
 html[data-theme="dark"] .contact-form input[type="email"]:focus,
 html[data-theme="dark"] .contact-form textarea:focus {
-  background: #1c2840;
-  border-color: var(--brand-accent);
-  box-shadow: 0 0 0 3px rgba(56, 217, 178, 0.14);
+  background: #1c2840 !important;
+  border-color: var(--brand-accent) !important;
+  box-shadow: 0 0 0 3px rgba(56, 217, 178, 0.14) !important;
 }
