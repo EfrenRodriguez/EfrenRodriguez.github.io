@@ -556,29 +556,37 @@ html[data-theme="dark"] .masthead {
   border-bottom-color: rgba(255, 255, 255, 0.07);
 }
 
-html[data-theme="dark"] .site-title {
-  color: #e8f0f8;
+html[data-theme="dark"] .site-title,
+html[data-theme="dark"] .site-title:visited {
+  color: #e8f0f8 !important;
 }
 
-html[data-theme="dark"] .masthead__menu-item a {
-  color: #c8d8e8;
+html[data-theme="dark"] .masthead__menu-item a,
+html[data-theme="dark"] .greedy-nav a,
+html[data-theme="dark"] .visible-links a,
+html[data-theme="dark"] .visible-links a:before {
+  color: #c8d8e8 !important;
 }
 
 html[data-theme="dark"] .page {
-  background: var(--surface);
+  background: var(--surface) !important;
   border-color: rgba(255, 255, 255, 0.06);
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
 }
 
 html[data-theme="dark"] .page__title {
-  color: var(--brand-ink);
+  color: var(--brand-ink) !important;
 }
 
-html[data-theme="dark"] .page__content {
-  color: var(--text-main);
+html[data-theme="dark"] .page__content,
+html[data-theme="dark"] .page__content p,
+html[data-theme="dark"] .page__content li {
+  color: var(--text-main) !important;
 }
 
-html[data-theme="dark"] .page__content h2 {
+html[data-theme="dark"] .page__content h2,
+html[data-theme="dark"] .page__content h3 {
+  color: var(--brand-ink) !important;
   border-bottom-color: rgba(255, 255, 255, 0.09);
 }
 
