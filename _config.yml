@@ -1,7 +1,8 @@
 title: Efren Rodriguez
-description: Embedded Systems & Connected Product Platforms
+description: "Engineering Leader → AI Transformation Leader. Connected Products · Agentic AI · Product Strategy."
 url: "https://efrenrodriguez.me"
 baseurl: ""
+og_image: "assets/images/profilePicture.png"
 
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"
