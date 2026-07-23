@@ -671,8 +671,10 @@ html[data-theme="dark"] .patent-footer {
 }
 
 /* Contact form — dark */
-html[data-theme="dark"] .contact-form,
-html[data-theme="dark"] form {
+html[data-theme="dark"] body form,
+html[data-theme="dark"] body .contact-form,
+html[data-theme="dark"] body fieldset {
+  background-color: transparent !important;
   background: transparent !important;
 }
 
@@ -680,18 +682,20 @@ html[data-theme="dark"] .contact-form label {
   color: var(--brand-ink);
 }
 
-html[data-theme="dark"] .contact-form input[type="text"],
-html[data-theme="dark"] .contact-form input[type="email"],
-html[data-theme="dark"] .contact-form textarea {
-  background: #182030 !important;
+/* Override MM's global "input, textarea, select { background-color: #eee }"
+   by targeting inputs globally in dark mode — scoped selectors weren't
+   winning the specificity battle against MM's compiled global rule. */
+html[data-theme="dark"] input:not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]):not([type="search"]),
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  background-color: #182030 !important;
   border-color: #2a3a52 !important;
   color: var(--text-main) !important;
 }
 
-html[data-theme="dark"] .contact-form input[type="text"]:focus,
-html[data-theme="dark"] .contact-form input[type="email"]:focus,
-html[data-theme="dark"] .contact-form textarea:focus {
-  background: #1c2840 !important;
+html[data-theme="dark"] input:focus,
+html[data-theme="dark"] textarea:focus {
+  background-color: #1c2840 !important;
   border-color: var(--brand-accent) !important;
   box-shadow: 0 0 0 3px rgba(56, 217, 178, 0.14) !important;
 }
