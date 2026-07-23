@@ -3,6 +3,7 @@
 <!-- Apply theme before first paint to prevent flash -->
 <script>(function(){var t=localStorage.getItem('er-theme')||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})();</script>
 <script defer src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/scroll-animations.js' | relative_url }}"></script>
 
 {% assign og_title = page.title | default: site.title %}
 {% assign og_description = page.excerpt | default: page.description | default: site.description %}
