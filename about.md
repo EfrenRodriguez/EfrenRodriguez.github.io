@@ -11,7 +11,7 @@ I am a technical leader with 15+ years building embedded software and connected 
 
 Currently serving as Director of Software Engineering at GE Appliances, I lead a global team of 25+ engineers delivering software platforms across laundry appliance product lines. Beyond execution, I am focused on how AI and agentic systems can transform the way connected products are built, how data becomes intelligence, and how engineering organizations evolve to compete in an AI-native world.
 
-I am pursuing an MIT Professional Education certificate in Applied Agentic AI for Organizational Transformation — and I write about what I'm learning at the intersection of connected products, AI strategy, and the future of product leadership.
+I earned an [MIT Professional Education certificate](/credentials/) in Applied Agentic AI for Organizational Transformation — and I write about what I'm learning at the intersection of connected products, AI strategy, and the future of product leadership.
 
 ---
 
@@ -54,7 +54,7 @@ Vision without delivery is noise. I maintain focus on shipping real products tha
 
 My near-term goal is to transition from engineering leadership into a product or AI transformation leadership role — Director of Product Management, Chief Product Officer, or equivalent. I am positioned uniquely to bridge engineering execution and product strategy, hardware constraints and digital experience, and operational rigor with AI-native thinking.
 
-The MIT certification is one step. The Insights I publish here are another. The products I help build are the proof.
+The [MIT certification](/credentials/) is proof of that direction. The Insights I publish here are another. The products I help build are the proof.
 
 ---
 
