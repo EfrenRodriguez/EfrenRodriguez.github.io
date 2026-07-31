@@ -12,7 +12,9 @@ This page documents formal credentials earned at the intersection of AI strategy
 
   <div class="credential-card">
     <div class="credential-badge">
-      <img src="/assets/images/credentials/mit-agentic-ai-badge.png" alt="MIT Professional Education — Applied Agentic AI for Organizational Transformation badge" />
+      <button class="credential-badge-link" aria-label="View full certificate image" data-lightbox="/assets/images/credentials/mit-agentic-ai-badge.png">
+        <img src="/assets/images/credentials/mit-agentic-ai-badge.png" alt="MIT Professional Education — Applied Agentic AI for Organizational Transformation certificate" />
+      </button>
     </div>
     <div class="credential-body">
       <div class="credential-issuer">MIT Professional Education</div>
@@ -30,3 +32,46 @@ This page documents formal credentials earned at the intersection of AI strategy
   </div>
 
 </div>
+
+<!-- Lightbox -->
+<div class="cred-lightbox" id="credLightbox" role="dialog" aria-modal="true" aria-label="Certificate image">
+  <button class="cred-lightbox-close" id="credLightboxClose" aria-label="Close">&times;</button>
+  <img id="credLightboxImg" src="" alt="" />
+</div>
+
+<script>
+(function () {
+  var lb   = document.getElementById('credLightbox');
+  var img  = document.getElementById('credLightboxImg');
+  var cls  = document.getElementById('credLightboxClose');
+
+  function open(src, alt) {
+    img.src = src;
+    img.alt = alt || '';
+    lb.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+    cls.focus();
+  }
+
+  function close() {
+    lb.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.credential-badge-link[data-lightbox]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      open(btn.getAttribute('data-lightbox'), btn.querySelector('img').alt);
+    });
+  });
+
+  cls.addEventListener('click', close);
+
+  lb.addEventListener('click', function (e) {
+    if (e.target === lb) close();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && lb.classList.contains('is-open')) close();
+  });
+})();
+</script>

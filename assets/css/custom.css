@@ -723,38 +723,62 @@ html[data-theme="dark"] textarea:focus {
 
 /* ── Credentials page ─────────────────────────────────────── */
 
+/* Grid: 2 cards side-by-side at ≥960px, single column below */
 .credential-grid {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
   gap: 2rem;
   margin-top: 1.5rem;
 }
 
 .credential-card {
   display: flex;
-  gap: 2rem;
+  gap: 1.75rem;
   align-items: flex-start;
   background: #f7fbf9;
   border: 1px solid #d9ede8;
   border-radius: 14px;
   padding: 2rem;
   box-shadow: 0 6px 20px rgba(14, 140, 111, 0.07);
+  min-width: 0;
 }
 
+/* Thumbnail — doubled from original 140px */
 .credential-badge {
   flex-shrink: 0;
-  width: 140px;
+  width: 280px;
 }
 
-.credential-badge img {
+/* Clickable badge wrapper — reset button styles */
+.credential-badge-link {
+  display: block;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 10px;
+  outline-offset: 3px;
+}
+
+.credential-badge-link img {
   width: 100%;
   height: auto;
   display: block;
   border-radius: 8px;
+  border: 2px solid transparent;
+  transition: border-color 0.18s, box-shadow 0.18s;
+}
+
+.credential-badge-link:hover img,
+.credential-badge-link:focus-visible img {
+  border-color: var(--brand-accent);
+  box-shadow: 0 0 0 3px rgba(14, 140, 111, 0.22), 0 8px 24px rgba(14, 140, 111, 0.16);
 }
 
 .credential-body {
   flex: 1;
+  min-width: 0;
 }
 
 .credential-issuer {
@@ -808,13 +832,60 @@ html[data-theme="dark"] textarea:focus {
   text-decoration: none;
 }
 
+/* Lightbox overlay */
+.cred-lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.84);
+  cursor: zoom-out;
+  align-items: center;
+  justify-content: center;
+}
+
+.cred-lightbox.is-open {
+  display: flex;
+}
+
+.cred-lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 10px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+
+.cred-lightbox-close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.4rem;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1;
+  padding: 0.3rem 0.65rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.cred-lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.26);
+}
+
+/* Mobile: stack badge above body, go single column */
 @media (max-width: 600px) {
+  .credential-grid {
+    grid-template-columns: 1fr;
+  }
   .credential-card {
     flex-direction: column;
     gap: 1.2rem;
   }
   .credential-badge {
-    width: 100px;
+    width: 200px;
     margin: 0 auto;
   }
 }
@@ -823,6 +894,12 @@ html[data-theme="dark"] textarea:focus {
 html[data-theme="dark"] .credential-card {
   background: #182030;
   border-color: #2a3a52;
+}
+
+html[data-theme="dark"] .credential-badge-link:hover img,
+html[data-theme="dark"] .credential-badge-link:focus-visible img {
+  border-color: var(--brand-accent);
+  box-shadow: 0 0 0 3px rgba(56, 217, 178, 0.22), 0 8px 24px rgba(56, 217, 178, 0.12);
 }
 
 html[data-theme="dark"] .credential-title {
