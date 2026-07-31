@@ -7,6 +7,8 @@ main:
     url: /timeline/
   - title: "Patents"
     url: /patents/
+  - title: "Credentials"
+    url: /credentials/
   - title: "Insights"
     url: /insights/
   - title: "Contact"

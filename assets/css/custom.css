@@ -720,3 +720,129 @@ html[data-theme="dark"] textarea:focus {
   border-color: var(--brand-accent) !important;
   box-shadow: 0 0 0 3px rgba(56, 217, 178, 0.14) !important;
 }
+
+/* ── Credentials page ─────────────────────────────────────── */
+
+.credential-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.credential-card {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  background: #f7fbf9;
+  border: 1px solid #d9ede8;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(14, 140, 111, 0.07);
+}
+
+.credential-badge {
+  flex-shrink: 0;
+  width: 140px;
+}
+
+.credential-badge img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.credential-body {
+  flex: 1;
+}
+
+.credential-issuer {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--brand-accent);
+  margin-bottom: 0.35rem;
+}
+
+.credential-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--brand-ink);
+  margin: 0 0 0.4rem;
+  line-height: 1.3;
+}
+
+.credential-meta {
+  margin-bottom: 0.75rem;
+}
+
+.credential-date {
+  font-size: 0.85rem;
+  color: #6a7e8a;
+}
+
+.credential-description {
+  font-size: 0.97rem;
+  color: var(--text-main);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.credential-verify {
+  display: inline-block;
+  padding: 0.45rem 1.1rem;
+  border: 2px solid var(--brand-accent);
+  border-radius: 6px;
+  color: var(--brand-accent);
+  font-weight: 600;
+  font-size: 0.88rem;
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s;
+}
+
+.credential-verify:hover {
+  background: var(--brand-accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .credential-card {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .credential-badge {
+    width: 100px;
+    margin: 0 auto;
+  }
+}
+
+/* Credentials — dark mode */
+html[data-theme="dark"] .credential-card {
+  background: #182030;
+  border-color: #2a3a52;
+}
+
+html[data-theme="dark"] .credential-title {
+  color: var(--brand-ink);
+}
+
+html[data-theme="dark"] .credential-date {
+  color: #6a80a0;
+}
+
+html[data-theme="dark"] .credential-description {
+  color: var(--text-main);
+}
+
+html[data-theme="dark"] .credential-verify {
+  border-color: var(--brand-accent);
+  color: var(--brand-accent);
+}
+
+html[data-theme="dark"] .credential-verify:hover {
+  background: var(--brand-accent);
+  color: #141d2e;
+}

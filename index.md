@@ -24,7 +24,7 @@ Connected Products · Agentic AI · Product Strategy</p>
 
 My foundation is 15+ years building embedded software and connected product platforms. Today, I lead engineering teams developing AI-enabled appliances at GE Appliances — and I'm actively making the transition from engineering execution to product and AI transformation leadership.
 
-I'm pursuing an MIT Professional Education certificate in Applied Agentic AI for Organizational Transformation, and I write about what I'm learning at the intersection of connected products, AI strategy, and engineering leadership.
+I earned an [MIT Professional Education certificate](/credentials/) in Applied Agentic AI for Organizational Transformation, and I write about what I'm learning at the intersection of connected products, AI strategy, and engineering leadership.
 
 ---
 
